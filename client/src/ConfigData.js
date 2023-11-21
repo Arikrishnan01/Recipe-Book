@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const GLOBAL_URL="http://localhost:5000"
+export const GLOBAL_URL="https://recipe-book-jtqd.onrender.com"
 
 export async function createNewRecipe(data) {
     return axios.post(`${GLOBAL_URL}/recipe/create`,data, {
