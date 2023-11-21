@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300;600&display=swap');
+
+
+.recipe-container{
+    flex: 4;
+    /* height: 100vh; */
+    background-color: #e8f5e9;
+    margin-left: 200px;
+}
+.recipe-container-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 50px;
+    font-family: "Monserrat", sans-serif;
+    margin-left: 35%;
+}
+.recipe-map-con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.recipe-map-con-item{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    /* height: 350px; */
+    max-height: 600px;
+    border: 1px solid #fff;
+    background-color: #212121;
+    color: #66C7B4;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.recipe-map-con-title{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0px;
+    color: #fff;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.recipe-map-con-ingre{
+    margin: 5px 0px;
+    color: #fff;
+}
+.recipe-map-con-instruc{
+    margin: 5px 0px;
+    color: #fff;
+}
+.recipe-watch-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 35px;
+    padding: 7px 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid green;
+    background-color: inherit;
+    color: green;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.recipe-comment-con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 10px 5px;
+}
+.recipe-comment-input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    padding: 7px 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: inherit;
+    color: white;
+}
+.recipe-comment-comSend{
+    margin-left: 5px;
+}
+.recipe-comment-comIcon{
+    margin-left: 70px;
+    text-align: center;
+}
+
+/* styel for scroll bar*/
+/* YourComponent.css */
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: gray; /* color of the scrollbar */
+    border-radius: 6px; /* roundness of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f4f4f4; /* color of the scrollbar track */
+  }
+  
+  /* Firefox */
+  .recipe-container {
+    scrollbar-width: thin;
+    scrollbar-color: #f64c08; /* thumb and track colors */
+  }
+  
+  /* add rrecipe*/
+  .recipe-add-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;    
+  }
+  .add-recipe-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    padding: 7px 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: green;
+    color: #fff;
+    margin-left: 20%;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    position: sticky;
+    top: 50px;
+  }
+  .recipe-map-con-item > img{
+    width: 430px;
+    height: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  /* edit-del-con*/
+  .edit-del-con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .editPen-icon{
+    margin-left: 150px;
+    cursor: pointer;
+  }
+  .delPen-icon{
+    margin-left: 20px;
+    color: red;
+    cursor: pointer;
+  }

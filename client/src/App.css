@@ -1,0 +1,12 @@
+.app-container{
+    display: flex;
+    /* margin-top: 3px; */
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+*{
+    padding:0px;
+    margin:0px;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300;600&display=swap');
+
+.measl-containers{
+    display: flex;
+    flex-direction: column;
+    /* width: 700px;
+    height: 700px; */
+    flex: 4;
+    background-color: rgb(192, 209, 216);
+    margin-left: 200px;
+    border-radius: 5px;
+    padding: 20px;
+    height: 92.8vh;
+}
+.topBackContaier{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.backButton{
+    background-color: #f64;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+    padding: 5px 7px;
+    cursor: pointer;
+}
+.topTitle{
+    margin-left: 45%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.meals-Form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 50px;
+    margin-left: 18%;
+}
+.meals-itemss{
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.meals-itemss > label{
+    margin-left: 0px;
+    width: 300px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Alata", sans-serif;
+}
+.meals-itemss > input{
+    margin-left: 0px;
+    width: 300px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(208, 202, 202);
+    margin-top: 5px;
+}
+.addMealsButtonBottom{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 35px;
+    padding: 5px 7px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 200px;
+}

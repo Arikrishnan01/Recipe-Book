@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: #1F1F1F;
+    color: #fff;
+    top: 0px;
+    position: sticky;
+}
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-left-title{
+    margin-left: 150px;
+}
+.navbar-left-title > h1{
+    text-align: center;
+    font-family: "Alata", sans-serif;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    font-size: 24px;
+}
+.navbar-left-title > h1 > span{
+    color: #f64c08;
+}
+
+.navbar-center-search-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A6A6A6;
+    border-radius: 5px;
+    height: 30px;
+}
+.navbar-search-box{
+    border: none;
+    outline: none;
+    padding: 7px;
+    background-color: inherit;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 21px;
+    width: 20px;
+    padding: 4px;
+    font-size: 12px;
+    background-color: #f64c08;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 20px; */
+}
+.navbar-right-login-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600px;
+    background-color: #f64c08;
+    color: #fff;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+.navbar-right-signup-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600px;
+    background-color: #f64c08;
+    color: #fff;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+.navbar-right-login-btn:hover{
+    transform: scale(1.09);
+    background-color: #f64c08;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    font-family: "Crimson text",serif;
+    cursor: pointer;
+}
+
+.navbar-right-signup-btn:hover{
+    transform: scale(1.09);
+    background-color: #f64c08;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    font-family: "Crimson text",serif;
+    cursor: pointer;
+}
